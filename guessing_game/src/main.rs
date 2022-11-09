@@ -22,7 +22,7 @@ fn main() {
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
             Err(_) => {
-                println!("uga buga");
+                println!("must be a number");
                 continue
             }
         };
